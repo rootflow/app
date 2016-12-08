@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/rootflow/app/issues"
   },
-  "homepage": "https://github.com/rootflow/app#readme"
+  "homepage": "https://github.com/rootflow/app#readme",
+  "dependencies": {
+    "pify": "^2.3.0"
+  }
 }

@@ -1,0 +1,11 @@
+{
+  "name": "rootflow",
+  "version": "0.1.0",
+  "dependencies": {
+    "pify": {
+      "version": "2.3.0",
+      "from": "pify@>=2.3.0 <3.0.0",
+      "resolved": "https://registry.npmjs.org/pify/-/pify-2.3.0.tgz"
+    }
+  }
+}
