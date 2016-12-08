@@ -7,6 +7,7 @@ const morgan = require('morgan')
 const { urlencoded } = require('body-parser')
 
 const routes = require('./routes')
+const db = require('./db')
 
 // constants
 const PORT = process.env.PORT || 3000
@@ -26,4 +27,7 @@ app.use(routes())
 
 app.listen(PORT, () => {
   console.log(`RootFlow listening port ${PORT}...`)
+  db(DEVELOPMENT ? 'development' : 'production').authenticate()
+    .then(e => console.log('Successfully connected to database.'))
+    .catch(e => console.error('Can\'t connect to database!', e))
 })
