@@ -1,0 +1,11 @@
+doctype html
+
+- var titlePart = ' / RootFlow'
+
+html
+  head
+    block head
+      - var title = '[]'
+    title!= title + titlePart
+  body
+    block content
