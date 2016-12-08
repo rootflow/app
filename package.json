@@ -1,0 +1,28 @@
+{
+  "name": "rootflow",
+  "version": "0.1.0",
+  "description": "Repost data from 'source to 'target",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rootflow/app.git"
+  },
+  "keywords": [
+    "server",
+    "ifttt",
+    "repost",
+    "social",
+    "passport",
+    "micro",
+    "service"
+  ],
+  "author": "Sergey Sova <i.am@lestad.net> (https://lestad.top)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rootflow/app/issues"
+  },
+  "homepage": "https://github.com/rootflow/app#readme"
+}
