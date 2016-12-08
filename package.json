@@ -4,6 +4,7 @@
   "description": "Repost data from 'source to 'target",
   "main": "server/index.js",
   "scripts": {
+    "dev": "node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +27,10 @@
   },
   "homepage": "https://github.com/rootflow/app#readme",
   "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
     "pify": "^2.3.0"
   }
 }
